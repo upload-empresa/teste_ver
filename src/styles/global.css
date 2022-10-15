@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: .8em;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+  
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(66, 61, 143, 1);
+  border-radius: 20px;
+}
