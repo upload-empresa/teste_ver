@@ -1,6 +1,4 @@
 module.exports = {
-  images: {
-    loader: 'akamai',
-    path: '',
-  },
-}
+  reactStrictMode: true,
+  images: { domains: ['res.cloudinary.com'] },
+};
